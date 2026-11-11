@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Elemento raíz: Libreria -->
+    <xs:element name="Libreria">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Puede contener 1 o más elementos Libro -->
+                <xs:element name="Libro" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- Elementos hijos del libro -->
+                            <xs:element name="Titulo" type="xs:string"/>
+                            <xs:element name="Autor" type="xs:string"/>
+                            <xs:element name="Editorial" type="xs:string"/>
+                            <xs:element name="Ejemplares" type="xs:integer"/>
+                            <xs:element name="Paginas" type="xs:integer"/>
+                        </xs:sequence>
+                        <!-- Atributos del libro -->
+                        <xs:attribute name="isbn" type="xs:string" use="required"/>
+                        <xs:attribute name="ano" type="xs:gYear" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

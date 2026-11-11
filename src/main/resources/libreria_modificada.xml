@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Libreria>
+    <Libro isbn="978-84-1545-000-0" ano="2021">
+        <Titulo>Acceso a Datos Avanzado en Java (Edición Modificada)</Titulo>
+        <Autor>Profesor RA-MA</Autor>
+        <Editorial>RA-MA</Editorial>
+        <Ejemplares>15</Ejemplares>
+        <Paginas>350</Paginas>
+    </Libro>
+    <Libro isbn="978-0-13-468599-1" ano="2018">
+        <Titulo>Effective Java</Titulo>
+        <Autor>Joshua Bloch</Autor>
+        <Editorial>Addison-Wesley</Editorial>
+        <Ejemplares>8</Ejemplares>
+        <Paginas>412</Paginas>
+    </Libro>
+</Libreria>
