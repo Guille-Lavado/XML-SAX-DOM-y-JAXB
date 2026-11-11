@@ -18,4 +18,12 @@
         <Paginas>412</Paginas>
     </Libro>
 
+    <Libro isbn="978-84-486-1234-5" ano="2020">
+        <Titulo>Java a Fondo</Titulo>
+        <Autor>Pablo Augusto Sznajdleder</Autor>
+        <Editorial>Alfaomega</Editorial>
+        <Ejemplares>20</Ejemplares>
+        <Paginas>520</Paginas>
+    </Libro>
+
 </Libreria>
